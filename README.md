@@ -1,4 +1,4 @@
-System Monitor - Translations.
+ï»¿System Monitor - Translations.
 
 In order to translate to your language:
 1. Create a values-COUNTRY_CODE folder. 
@@ -10,7 +10,7 @@ HOW TO TRANSLATE: Replace only the content inside the xml tags.
 EXAMPLE:
 ---------
 English (values/strings.xml)         : <string name="menu_settings">Settings</string>
-Portuguese (values-pt_PT/strings.xml): <string name="menu_settings">Definições</string>
+Portuguese (values-pt_PT/strings.xml): <string name="menu_settings">DefiniÃ§Ãµes</string>
 
 -------------------------------------------------
 Some known country codes:
