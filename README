@@ -1,9 +1,15 @@
 ﻿System Monitor - Translations.
 
 In order to translate to your language:
-1. Create a values-COUNTRY_CODE folder. 
-2. Copy "values/string.xml" to your new values-CODE folder. 
-3. Open your new "values-COUNTRY_CODE/strings.xml" file and start translating!
+
+if ( your desired language folder already exists ) {
+	1. Open your new "values-COUNTRY_CODE/strings.xml" file and start translating!
+}
+else {
+	1. Create a values-COUNTRY_CODE folder. 
+	2. Copy "values/string.xml" to your new values-CODE folder. 
+	3. Open your new "values-COUNTRY_CODE/strings.xml" file and start translating!
+}
 
 HOW TO TRANSLATE: Replace only the content inside the xml tags.
 
