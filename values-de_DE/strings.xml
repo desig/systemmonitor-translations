@@ -3,39 +3,39 @@
 
     <!-- APP GENERAL -->
     <string name="app_name">System Monitor</string>
-    <string name="menu_settings">Settings</string>
+    <string name="menu_settings">Einstellungen</string>
     <string name="io_title">I/O</string>
-    <string name="network_title">NETWORK</string>
+    <string name="network_title">NETZWERK</string>
     <string name="ram_title">RAM</string>
     <string name="cpu_title">CPU</string>
-    <string name="display_all_cores">Show all cores</string>
-    <string name="settings_theme_cat">App Theme</string>
-    <string name="settings_theme_choose">Choose theme</string>
-    <string name="settings">Settings</string>
+    <string name="display_all_cores">Zeige alle Kerne</string>
+    <string name="settings_theme_cat">App Design</string>
+    <string name="settings_theme_choose">Design auswählen</string>
+    <string name="settings">Einstellung</string>
     <string name="pref_screen_app">App</string>
-    <string name="settings_app_screen_summary">Misc settings. You can choose your favorite theme and define how often you want the load updates to show on your screen.</string>
+    <string name="settings_app_screen_summary">Sonstige Einstellungen, hier kannst du das Aussehen der App verändern und einstellen wie häufig die Anzeigen aktualisiert werden soll.</string>
     <!-- END OF APP GENERAL -->
 
 
     <!-- STAT TITLES -->
-    <string name="cpuUsage">Usage</string>
-    <string name="cpuFrequency">Speed</string>
-    <string name="availableRam">Free</string>
-    <string name="totalRam">Total</string>
-    <string name="usedRam">Used</string>
-    <string name="min_speed">Min Speed</string>
-    <string name="max_speed">Max Speed</string>
+    <string name="cpuUsage">Auslastung</string>
+    <string name="cpuFrequency">Frequenz</string>
+    <string name="availableRam">Verfügbar</string>
+    <string name="totalRam">Gesamt</string>
+    <string name="usedRam">Benutzt</string>
+    <string name="min_speed">Min Geschwindigkeit</string>
+    <string name="max_speed">Max Geschwindigkeit</string>
     <string name="max">Max</string>
     <string name="min">Min</string>
-    <string name="read_speed">Read Speed</string>
-    <string name="write_speed">Write Speed</string>
-    <string name="read">Read</string>
-    <string name="write">Write</string>
-    <string name="send">Send</string>
-    <string name="through">Through</string>
-    <string name="total">Total</string>
-    <string name="throughput">Through</string>
-    <string name="send_speed">Send Speed</string>
+    <string name="read_speed">Lesegeschwindigkeit</string>
+    <string name="write_speed">Schreibgeschwindigkeit</string>
+    <string name="read">Lesen</string>
+    <string name="write">Schreiben</string>
+    <string name="send">Senden</string>
+    <string name="through">Über</string>
+    <string name="total">Gesamt</string>
+    <string name="throughput">Über</string>
+    <string name="send_speed">Sendegeschwindigkeit</string>
     <!-- END OF STAT TITLES -->
 
 
@@ -43,42 +43,42 @@
     <string name="widget_name_cpu">System Monitor CPU</string>
     <string name="widget_name_ram">System Monitor RAM</string>
     <string name="widget_name_io">System Monitor IO</string>
-    <string name="widget_name_network">System Monitor Network</string>
+    <string name="widget_name_network">System Monitor Netzwerk</string>
     <string name="settings_widgets">Widgets</string>
-    <string name="settings_widgets_summary">Define your widget preferences here</string>
+    <string name="settings_widgets_summary">Persöhnliche anpassungen des Widgets</string>
     <!-- END OF WIDGETS -->
 
 
     <!-- NOTIFICATIONS -->
-    <string name="settings_notifications_title">Notifications</string>
-    <string name="settings_notifications_cpu">Notification</string>
-    <string name="settings_notifications_ram">Notification</string>
-    <string name="settings_notifications_io">Notification</string>
-    <string name="settings_notifications_net">Notification</string>
-    <string name="settings_notifications_cpu_updatefreq">Update interval</string>
-    <string name="settings_notifications_cpu_category">CPU Notification</string>
-    <string name="settings_notifications_ram_category">RAM Notification</string>
-    <string name="settings_notifications_io_category">I/O Notification</string>
-    <string name="settings_notification_net_category">Network Notification</string>
-    <string name="settings_pref_screen_not">Notifications</string>
-    <string name="settings_notification_screen_summary">You can sneak peak your system load directly from the notification bar. Expanding the bar will show you more info than you\'ve ever imagined.</string>
+    <string name="settings_notifications_title">Benachrichtigung</string>
+    <string name="settings_notifications_cpu">Benachrichtigung</string>
+    <string name="settings_notifications_ram">Benachrichtigung</string>
+    <string name="settings_notifications_io">Benachrichtigung</string>
+    <string name="settings_notifications_net">Benachrichtigung</string>
+    <string name="settings_notifications_cpu_updatefreq">Aktualisierungsintervall</string>
+    <string name="settings_notifications_cpu_category">CPU Benachrichtung</string>
+    <string name="settings_notifications_ram_category">RAM Benachrichtigung</string>
+    <string name="settings_notifications_io_category">I/O Benachrichtigung</string>
+    <string name="settings_notification_net_category">Netzwerk Benachrichtung</string>
+    <string name="settings_pref_screen_not">Benachrichtigungen</string>
+    <string name="settings_notification_screen_summary">Eine Vorschau des Ressourcenmonitors kannst du in den Benachrichtigungen sehen. Das Ausklappen der Benachrichtigung ermöglicht es dir noch mehr Infos zu sehen.</string>
 
     <!-- END OF NOTIFICATIONS -->
 
 
     <!-- FLYING MONITOR -->
-    <string name="settings_floating_cat">Float app</string>
+    <string name="settings_floating_cat">Mehrfenster App</string>
     <string name="settings_floating_cpu">CPU</string>
     <string name="settings_floating_ram">RAM</string>
     <string name="settings_floating_io">I/O</string>
     <string name="settings_floating_net">NET</string>
     <string name="settings_floating_monitor">Monitor</string>
-    <string name="prefscreen_title_floating">Flying Monitor</string>
-    <string name="settings_floating_screen_summary">This flying window will be on top of all your apps and show you the system load in real time with a fancy and modern graphic.</string>
+    <string name="prefscreen_title_floating">Überlagerter Monitor</string>
+    <string name="settings_floating_screen_summary">Der überlagerte Monitor zeigt dir die Ressourcen in Echtzeit mit einem schönen Diagramm über jeder App an.</string>
     <string name="settings_floating_cpu_cat">CPU Monitor</string>
     <string name="settings_floating_ram_cat">RAM Monitor</string>
     <string name="settings_floating_io_cat">I/O Monitor</string>
-    <string name="settings_floating_net_cat">Network Monitor</string>
+    <string name="settings_floating_net_cat">Netzwerk Monitor</string>
     <string name="settings_floating_display_all_cores_key">floatingallcoreskey</string>
 
     <string-array name="themes_array_entries">
@@ -90,18 +90,18 @@
 
     <!-- LICENSE -->
     <!-- License checking status messages -->
-    <string name="check_license">Check license</string>
-    <string name="checking_license">Checking license...</string>
-    <string name="dont_allow">Don\'t allow the user access</string>
-    <string name="allow">Allow the user access</string>
-    <string name="application_error">Application error: %1$s</string>
+    <string name="check_license">Lizenzprüfung</string>
+    <string name="checking_license">Lizenz wird überprüft...</string>
+    <string name="dont_allow">Verbiete Benutzerzugriff</string>
+    <string name="allow">Erlaube Benutzerzugriff</string>
+    <string name="application_error">Programmfehler: %1$s</string>
 
     <!-- Unlicensed dialog messages -->
-    <string name="unlicensed_dialog_title">Application not licensed</string>
-    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Google Play.</string>
-    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
-    <string name="buy_button">Buy app</string>
-    <string name="retry_button">Retry</string>
-    <string name="quit_button">Exit</string>
+    <string name="unlicensed_dialog_title">Applikation nicht lizenziert</string>
+    <string name="unlicensed_dialog_body">Diese Applikation ist nicht lizenziert. Bitte erwerbe eine Lizenz über Google Play.</string>
+    <string name="unlicensed_dialog_retry_body">Eine Lizenzprüfung ist nicht möglich. Bitte stelle sicher das eine Netzwerkverbindung vorhanden ist.</string>
+    <string name="buy_button">App kaufen</string>
+    <string name="retry_button">Erneut versuchen</string>
+    <string name="quit_button">Beenden</string>
 
 </resources>
