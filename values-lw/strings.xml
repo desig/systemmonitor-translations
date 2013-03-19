@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- APP GENERAL -->
+  <string name="app_name">System Monitor</string>
+  <string name="menu_settings">הגדרות</string>
+  <string name="io_title">I/O</string>
+  <string name="network_title">רשת</string>
+  <string name="ram_title">RAM</string>
+  <string name="cpu_title">CPU</string>
+  <string name="display_all_cores">הצג את כל הליבות</string>
+  <string name="settings_theme_cat">ערכת נושא</string>
+  <string name="settings_theme_choose">בחר ערכת נושא</string>
+  <string name="settings">הגדרות</string>
+  <string name="pref_screen_app">יישום</string>
+  <string name="settings_app_screen_summary">הגדרות שונות. אתה יכול לבחור את הערכת נושא המועדפת עליך ולקבוע כל כמה זמן להציג עדכונים על מסך הבית שלך.</string>
+  <!-- END OF APP GENERAL -->
+  <!-- STAT TITLES -->
+  <string name="cpuUsage">שימוש</string>
+  <string name="cpuFrequency">מהירות</string>
+  <string name="availableRam">פנוי</string>
+  <string name="totalRam">סה\"כ</string>
+  <string name="usedRam">בשימוש</string>
+  <string name="min_speed">מהירות מינימאלית</string>
+  <string name="max_speed">מהירות מקסימלית</string>
+  <string name="max">מקס\'</string>
+  <string name="min">מינ\'</string>
+  <string name="read_speed">מהירות קריאה</string>
+  <string name="write_speed">מהירות כתיבה</string>
+  <string name="read">קריאה</string>
+  <string name="write">כתיבה</string>
+  <string name="send">שלח</string>
+  <string name="through">דרך</string>
+  <string name="total">סה\"כ</string>
+  <string name="throughput">דרך</string>
+  <string name="send_speed">מהירות שליחה</string>
+  <!-- END OF STAT TITLES -->
+  <!-- WIDGETS -->
+  <string name="widget_name_cpu">ניטור מערכת CPU</string>
+  <string name="widget_name_ram">ניטור מערכת RAM</string>
+  <string name="widget_name_io">ניטור מערכת IO</string>
+  <string name="widget_name_network">ניטור מערכת רשת</string>
+  <string name="settings_widgets">ווידג\'טים</string>
+  <string name="settings_widgets_summary">הגדר את ההעדפות ווידג\'ט שלך כאן</string>
+  <!-- END OF WIDGETS -->
+  <!-- NOTIFICATIONS -->
+  <string name="settings_notifications_title">התראות</string>
+  <string name="settings_notifications_cpu">התראה</string>
+  <string name="settings_notifications_ram">התראה</string>
+  <string name="settings_notifications_io">התראה</string>
+  <string name="settings_notifications_net">התראה</string>
+  <string name="settings_notifications_cpu_updatefreq">זמן עדכון</string>
+  <string name="settings_notifications_cpu_category">התראות מעבד</string>
+  <string name="settings_notifications_ram_category">התראות RAM</string>
+  <string name="settings_notifications_io_category">התראות I/O</string>
+  <string name="settings_notification_net_category">התראות רשת</string>
+  <string name="settings_pref_screen_not">התראות</string>
+  <string name="settings_notification_screen_summary">אתה יכול להציץ על העומס של המערכת שלך ישירות מחלון ההתראות. הרחבת ההתראה תראה לך יותר מידע ממה שאי פעם דמיינת.</string>
+  <!-- END OF NOTIFICATIONS -->
+  <!-- FLYING MONITOR -->
+  <string name="settings_floating_cat">יישום צף</string>
+  <string name="settings_floating_cpu">CPU</string>
+  <string name="settings_floating_ram">RAM</string>
+  <string name="settings_floating_io">I/O</string>
+  <string name="settings_floating_net">רשת</string>
+  <string name="settings_floating_monitor">מנטר</string>
+  <string name="prefscreen_title_floating">מנטר צף</string>
+  <string name="settings_floating_screen_summary">החלון הזה יהיה מעל היישומים שלך כל הזמן ויראה לך את העומס על המערכת בזמן אמת עם גרפיקה יפה ומודרנית!</string>
+  <string name="settings_floating_cpu_cat">ניטור CPU</string>
+  <string name="settings_floating_ram_cat">ניטור RAM</string>
+  <string name="settings_floating_io_cat">ניטור I/O</string>
+  <string name="settings_floating_net_cat">ניטור רשת</string>
+  <string name="settings_floating_display_all_cores_key">floatingallcoreskey</string>
+  <string-array name="themes_array_entries">
+    <item>בהיר</item>
+    <item>כהה</item>
+    <item>בהיר עם שורת פעולות כהה</item>
+  </string-array>
+  <!-- LICENSE -->
+  <!-- License checking status messages -->
+  <string name="check_license">בדוק רישיון</string>
+  <string name="checking_license">בודק רישיון...</string>
+  <string name="dont_allow">אל תאפשר גישת משתמש</string>
+  <string name="allow">אפשר גישת משתמש</string>
+  <string name="application_error">שגיאת יישום: %1$s</string>
+  <!-- Unlicensed dialog messages -->
+  <string name="unlicensed_dialog_title">יישום לא מורשה</string>
+  <string name="unlicensed_dialog_body">היישום לא מורשה, אנא קנה אותו מ Google Play.</string>
+  <string name="unlicensed_dialog_retry_body">לא ניתן לאמת את הרישיון. בדוק אם חיבור הרשת זמין.</string>
+  <string name="buy_button">קנה יישום</string>
+  <string name="retry_button">נסה שוב</string>
+  <string name="quit_button">יציאה</string>
+</resources>
