@@ -2,106 +2,106 @@
 <resources>
 
     <!-- APP GENERAL -->
-    <string name="app_name">System Monitor</string>
-    <string name="menu_settings">Settings</string>
+    <string name="app_name">Monitor di Sistema</string>
+    <string name="menu_settings">Impostazioni</string>
     <string name="io_title">I/O</string>
-    <string name="network_title">NETWORK</string>
+    <string name="network_title">RETE</string>
     <string name="ram_title">RAM</string>
     <string name="cpu_title">CPU</string>
-    <string name="display_all_cores">Show all cores</string>
-    <string name="settings_theme_cat">App Theme</string>
-    <string name="settings_theme_choose">Choose theme</string>
-    <string name="settings">Settings</string>
+    <string name="display_all_cores">Mostra tutti i core</string>
+    <string name="settings_theme_cat">Tema App</string>
+    <string name="settings_theme_choose">Scegli tema</string>
+    <string name="settings">Impostazioni</string>
     <string name="pref_screen_app">App</string>
-    <string name="settings_app_screen_summary">Misc settings. You can choose your favorite theme and define how often you want the load updates to show on your screen.</string>
+    <string name="settings_app_screen_summary">Impostazioni varie. Puoi scegliere il tuo tema preferito e definire la frequenza degli aggiornamento sullo schermo.</string>
     <!-- END OF APP GENERAL -->
 
 
     <!-- STAT TITLES -->
-    <string name="cpuUsage">Usage</string>
-    <string name="cpuFrequency">Speed</string>
-    <string name="availableRam">Free</string>
-    <string name="totalRam">Total</string>
-    <string name="usedRam">Used</string>
-    <string name="min_speed">Min Speed</string>
-    <string name="max_speed">Max Speed</string>
+    <string name="cpuUsage">Utilizzo</string>
+    <string name="cpuFrequency">Frequenza</string>
+    <string name="availableRam">Libera</string>
+    <string name="totalRam">Totale</string>
+    <string name="usedRam">In uso</string>
+    <string name="min_speed">Velocità min</string>
+    <string name="max_speed">Velocità max</string>
     <string name="max">Max</string>
     <string name="min">Min</string>
-    <string name="read_speed">Read Speed</string>
-    <string name="write_speed">Write Speed</string>
-    <string name="read">Read</string>
-    <string name="write">Write</string>
-    <string name="send">Send</string>
-    <string name="through">Through</string>
-    <string name="total">Total</string>
-    <string name="throughput">Through</string>
-    <string name="send_speed">Send Speed</string>
+    <string name="read_speed">Velocità lettura</string>
+    <string name="write_speed">Velocità scrittura</string>
+    <string name="read">Lettura</string>
+    <string name="write">Scrittura</string>
+    <string name="send">Trasmissione</string>
+    <string name="through">Totale</string>
+    <string name="total">Totale</string>
+    <string name="throughput">Totale</string>
+    <string name="send_speed">Trasmissione</string>
     <!-- END OF STAT TITLES -->
 
 
     <!-- WIDGETS -->
-    <string name="widget_name_cpu">System Monitor CPU</string>
-    <string name="widget_name_ram">System Monitor RAM</string>
-    <string name="widget_name_io">System Monitor IO</string>
-    <string name="widget_name_network">System Monitor Network</string>
-    <string name="settings_widgets">Widgets</string>
-    <string name="settings_widgets_summary">Define your widget preferences here</string>
+    <string name="widget_name_cpu">Monitor CPU</string>
+    <string name="widget_name_ram">Monitor RAM</string>
+    <string name="widget_name_io">Monitor IO</string>
+    <string name="widget_name_network">Monitor RETE</string>
+    <string name="settings_widgets">Widget</string>
+    <string name="settings_widgets_summary">Qui puoi definire le impostazioni del widget</string>
     <!-- END OF WIDGETS -->
 
 
     <!-- NOTIFICATIONS -->
-    <string name="settings_notifications_title">Notifications</string>
-    <string name="settings_notifications_cpu">Notification</string>
-    <string name="settings_notifications_ram">Notification</string>
-    <string name="settings_notifications_io">Notification</string>
-    <string name="settings_notifications_net">Notification</string>
-    <string name="settings_notifications_cpu_updatefreq">Update interval</string>
-    <string name="settings_notifications_cpu_category">CPU Notification</string>
-    <string name="settings_notifications_ram_category">RAM Notification</string>
-    <string name="settings_notifications_io_category">I/O Notification</string>
-    <string name="settings_notification_net_category">Network Notification</string>
-    <string name="settings_pref_screen_not">Notifications</string>
-    <string name="settings_notification_screen_summary">You can sneak peak your system load directly from the notification bar. Expanding the bar will show you more info than you\'ve ever imagined.</string>
+    <string name="settings_notifications_title">Notifiche</string>
+    <string name="settings_notifications_cpu">Notifica</string>
+    <string name="settings_notifications_ram">Notifica</string>
+    <string name="settings_notifications_io">Notifica</string>
+    <string name="settings_notifications_net">Notifica</string>
+    <string name="settings_notifications_cpu_updatefreq">Intervallo di aggiornamento</string>
+    <string name="settings_notifications_cpu_category">Notifica CPU</string>
+    <string name="settings_notifications_ram_category">Notifica RAM</string>
+    <string name="settings_notifications_io_category">Notifica I/O</string>
+    <string name="settings_notification_net_category">Notifica RETE</string>
+    <string name="settings_pref_screen_not">Notifiche</string>
+    <string name="settings_notification_screen_summary">Puoi osservare il carico del sistema direttamente dalla barra delle notifiche. Espandendo la barra potrai avere tutte le informazioni possibili.</string>
 
     <!-- END OF NOTIFICATIONS -->
 
 
     <!-- FLYING MONITOR -->
-    <string name="settings_floating_cat">Float app</string>
+    <string name="settings_floating_cat">Display sovrapposto</string>
     <string name="settings_floating_cpu">CPU</string>
     <string name="settings_floating_ram">RAM</string>
     <string name="settings_floating_io">I/O</string>
-    <string name="settings_floating_net">NET</string>
+    <string name="settings_floating_net">RETE</string>
     <string name="settings_floating_monitor">Monitor</string>
-    <string name="prefscreen_title_floating">Flying Monitor</string>
-    <string name="settings_floating_screen_summary">This flying window will be on top of all your apps and show you the system load in real time with a fancy and modern graphic.</string>
-    <string name="settings_floating_cpu_cat">CPU Monitor</string>
-    <string name="settings_floating_ram_cat">RAM Monitor</string>
-    <string name="settings_floating_io_cat">I/O Monitor</string>
-    <string name="settings_floating_net_cat">Network Monitor</string>
+    <string name="prefscreen_title_floating">Monitor Sovrapposto</string>
+    <string name="settings_floating_screen_summary">Questa finestra sovrapposta apparirà sopra le tue applicazioni mostrandoti il carico del sistema in tempo reale con una grafica moderna e curata.</string>
+    <string name="settings_floating_cpu_cat">Monitor CPU</string>
+    <string name="settings_floating_ram_cat">Monitor RAM</string>
+    <string name="settings_floating_io_cat">Monitor I/O</string>
+    <string name="settings_floating_net_cat">Monitor RETE</string>
     <string name="settings_floating_display_all_cores_key">floatingallcoreskey</string>
 
     <string-array name="themes_array_entries">
-        <item>Light</item>
-        <item>Dark</item>
-        <item>Light with dark action bar</item>
+        <item>Chiaro</item>
+        <item>Scuro</item>
+        <item>Chiaro con la barra scura</item>
     </string-array>
 
 
     <!-- LICENSE -->
     <!-- License checking status messages -->
-    <string name="check_license">Check license</string>
-    <string name="checking_license">Checking license...</string>
-    <string name="dont_allow">Don\'t allow the user access</string>
-    <string name="allow">Allow the user access</string>
-    <string name="application_error">Application error: %1$s</string>
+    <string name="check_license">Verifica Licenza</string>
+    <string name="checking_license">Verifica licenza in corso...</string>
+    <string name="dont_allow">Impedisci accesso utente</string>
+    <string name="allow">Permetti accesso utente</string>
+    <string name="application_error">Errore applicazione: %1$s</string>
 
     <!-- Unlicensed dialog messages -->
-    <string name="unlicensed_dialog_title">Application not licensed</string>
-    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Google Play.</string>
-    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
-    <string name="buy_button">Buy app</string>
-    <string name="retry_button">Retry</string>
-    <string name="quit_button">Exit</string>
+    <string name="unlicensed_dialog_title">Licenza non valida</string>
+    <string name="unlicensed_dialog_body">Questa applicazione non ha una licenza valida. Procedi all'\acquisto sul Play Store.</string>
+    <string name="unlicensed_dialog_retry_body">Impossibile verificare la licenza. Verifica la connessione di rete.</string>
+    <string name="buy_button">Acquista</string>
+    <string name="retry_button">Riprova</string>
+    <string name="quit_button">Esci</string>
 
 </resources>
