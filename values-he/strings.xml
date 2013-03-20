@@ -13,6 +13,34 @@
   <string name="settings">הגדרות</string>
   <string name="pref_screen_app">יישום</string>
   <string name="settings_app_screen_summary">הגדרות שונות. אתה יכול לבחור את הערכת נושא המועדפת עליך ולקבוע כל כמה זמן להציג עדכונים על מסך הבית שלך.</string>
+  <string name="second">Second</string>
+  <string name="seconds">Seconds</string>
+  <string name="app_description">
+The most beautiful and versatile System Monitor for Android. This application provides real time system load statistics in the form of text and graph. 
+
+This app is a full 4 in 1! You will be able to monitor CPU,RAM,I/O and Network from
+
+- Main app
+- Notification bar
+- Floating app
+- Widgets
+
+You will be able to configure lots of nice features, such as:
+-The update interval in order to spare system resources.
+-Choose to either monitor total cpu usage or individual cpu cores!
+
+WARNING: Expanded notifications only works on Jelly Bean +
+
+Misc:
+- Help translating! https://github.com/cgollner/systemmonitor-translations
+
+Graphics:
+- Feature graphics made by www.johnxde.com #
+
+Permissions explained:
+- DRAW OVER OTHER APPS: This permission is needed in order to display the floating app option.
+- RUN AT STARTUP: This permission is need in case that you want your notifications to start on boot.   
+   </string>
   <!-- END OF APP GENERAL -->
   <!-- STAT TITLES -->
   <string name="cpuUsage">שימוש</string>

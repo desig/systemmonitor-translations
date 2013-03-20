@@ -14,8 +14,8 @@
     <string name="settings">Settings</string>
     <string name="pref_screen_app">App</string>
     <string name="settings_app_screen_summary">Misc settings. You can choose your favorite theme and define how often you want the load updates to show on your screen.</string>
-   
-   
+  	<string name="second">Second</string>
+	<string name="seconds">Seconds</string>	 
    <string name="app_description">
 The most beautiful and versatile System Monitor for Android. This application provides real time system load statistics in the form of text and graph. 
 

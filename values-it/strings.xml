@@ -2,7 +2,7 @@
 <resources>
 
     <!-- APP GENERAL -->
-    <string name="app_name">Monitor di Sistema</string>
+    <string name="app_name">System Monitor</string>
     <string name="menu_settings">Impostazioni</string>
     <string name="io_title">I/O</string>
     <string name="network_title">RETE</string>
@@ -13,8 +13,36 @@
     <string name="settings_theme_choose">Scegli tema</string>
     <string name="settings">Impostazioni</string>
     <string name="pref_screen_app">App</string>
-    <string name="settings_app_screen_summary">Impostazioni varie. Puoi scegliere il tuo tema preferito e definire la frequenza degli aggiornamento sullo schermo.</string>
-    <!-- END OF APP GENERAL -->
+    <string name="settings_app_screen_summary">Impostazioni varie. Puoi scegliere il tuo tema preferito e definire la frequenza degli aggiornamenti sullo schermo.</string>
+	<string name="second">Secondo</string>
+	<string name="seconds">Secondi</string>
+	<string name="app_description">
+Il più bello e versatile Monitor di Sistema per Android. Questa applicazione fornisce stastistiche relative al carico di sistema sotto forma di dati e grafici. 
+
+Questa applicazione è in realtà 4 applicazioni in una! Potrai infatti monitorare CPU,RAM,I/O e RETE da
+
+- Applicazione stessa
+- Barra di Notifica
+- Finestra flottante
+- Widget
+
+Potrai configurare a piacere tanti parametri come:
+-L'intervallo diaggiornamento per non sovraccaricare le risorse di sistema.
+-La possibilità di visualizzare l'utilizzo totale della CPU o i singoli core!
+
+ATTENZIONE: Le notifiche espanse funzionano solo in Jelly Bean +
+
+Varie:
+- Aiutaci con le traduzioni! https://github.com/cgollner/systemmonitor-translations
+
+Grafica:
+- Grafici delle funzioni di www.johnxde.com #
+
+Spiegazioni delle autorizzazioni:
+- DISEGNO SU ALTRE APPLICAZIONI: Questo serve per visualizzare la finestra flottante.
+- ESECUZIONE ALL'/AVVIO: Seve qualora volessi far partire le notifiche all'avvio.   
+   </string>
+   <!-- END OF APP GENERAL -->
 
 
     <!-- STAT TITLES -->
@@ -23,19 +51,21 @@
     <string name="availableRam">Libera</string>
     <string name="totalRam">Totale</string>
     <string name="usedRam">In uso</string>
-    <string name="min_speed">Velocità min</string>
-    <string name="max_speed">Velocità max</string>
+    <string name="min_speed">Freq. min</string>
+    <string name="max_speed">Freq. max</string>
     <string name="max">Max</string>
     <string name="min">Min</string>
     <string name="read_speed">Velocità lettura</string>
     <string name="write_speed">Velocità scrittura</string>
     <string name="read">Lettura</string>
     <string name="write">Scrittura</string>
-    <string name="send">Trasmissione</string>
+    <string name="send">Tx</string>
     <string name="through">Totale</string>
     <string name="total">Totale</string>
     <string name="throughput">Totale</string>
     <string name="send_speed">Trasmissione</string>
+	<string name="receive">Rx</string>
+	<string name="receive_speed">Ricezione</string>
     <!-- END OF STAT TITLES -->
 
 
@@ -61,20 +91,20 @@
     <string name="settings_notifications_io_category">Notifica I/O</string>
     <string name="settings_notification_net_category">Notifica RETE</string>
     <string name="settings_pref_screen_not">Notifiche</string>
-    <string name="settings_notification_screen_summary">Puoi osservare il carico del sistema direttamente dalla barra delle notifiche. Espandendo la barra potrai avere tutte le informazioni possibili.</string>
-
+	<string name="settings_notifications_show_expanded">Mostra espanso</string>
+    <string name="settings_notification_screen_summary">Puoi osservare il carico del sistema direttamente dalla barra delle notifiche. Espandendo la barra potrai avere tutte le informazioni necessarie.</string>
     <!-- END OF NOTIFICATIONS -->
 
 
     <!-- FLYING MONITOR -->
-    <string name="settings_floating_cat">Display sovrapposto</string>
+    <string name="settings_floating_cat">Finestra flottante</string>
     <string name="settings_floating_cpu">CPU</string>
     <string name="settings_floating_ram">RAM</string>
     <string name="settings_floating_io">I/O</string>
     <string name="settings_floating_net">RETE</string>
-    <string name="settings_floating_monitor">Monitor</string>
-    <string name="prefscreen_title_floating">Monitor Sovrapposto</string>
-    <string name="settings_floating_screen_summary">Questa finestra sovrapposta apparirà sopra le tue applicazioni mostrandoti il carico del sistema in tempo reale con una grafica moderna e curata.</string>
+    <string name="settings_floating_monitor">Display</string>
+    <string name="prefscreen_title_floating">Display Flottante</string>
+    <string name="settings_floating_screen_summary">Questa finestra flottante apparirà sopra le tue applicazioni mostrandoti il carico del sistema in tempo reale con una grafica moderna e curata.</string>
     <string name="settings_floating_cpu_cat">Monitor CPU</string>
     <string name="settings_floating_ram_cat">Monitor RAM</string>
     <string name="settings_floating_io_cat">Monitor I/O</string>
