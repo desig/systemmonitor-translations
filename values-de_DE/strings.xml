@@ -8,42 +8,43 @@
     <string name="network_title">NETZWERK</string>
     <string name="ram_title">RAM</string>
     <string name="cpu_title">CPU</string>
-    <string name="display_all_cores">Zeige alle Kerne</string>
-    <string name="settings_theme_cat">App Design</string>
+    <string name="display_all_cores">Alle Kerne anzeigen</string>
+    <string name="settings_theme_cat">Anwendungsdesign</string>
     <string name="settings_theme_choose">Design auswählen</string>
     <string name="settings">Einstellung</string>
-    <string name="pref_screen_app">App</string>
-	<string name="second">Sekunde</string>
-	<string name="seconds">Sekunden</string>	
+    <string name="pref_screen_app">Applikation</string>
     <string name="settings_app_screen_summary">Sonstige Einstellungen, hier kannst du das Aussehen der App verändern und einstellen wie häufig die Anzeigen aktualisiert werden soll.</string>
-   
-      <string name="app_description">
-The most beautiful and versatile System Monitor for Android. This application provides real time system load statistics in the form of text and graph. 
+	<string name="second">Sekunde</string>
+	<string name="seconds">Sekunden</string>
+    <string name="app_description">
 
-This app is a full 4 in 1! You will be able to monitor CPU,RAM,I/O and Network from
+Die beste möglichkeit Statistiken über dein System unter Android anzeigen zu lassen. Die Statistiken werden übersichtlich Diagramm- und Textform dargestellt.
 
-- Main app
-- Notification bar
-- Floating app
+Diese App ermöglicht es dir aber nicht nur, die Statistken für CPU, RAM, I/O und Netzwerk auf eine Art und Weise darzustellen, sondern du kannst zwischen folgenden 4 Möglichkeiten wählen:
+
+- Applikation
+- Benachrichtigungen
+- Mehrfenstermodus (In diesem Modus werden die Statistiken über anderen Apps angezeigt)
 - Widgets
 
-You will be able to configure lots of nice features, such as:
--The update interval in order to spare system resources.
--Choose to either monitor total cpu usage or individual cpu cores!
+Du hast die Möglichkeit viele Einstellungen zu treffen zum Beispiel:
+- Das einstellen des Aktualisierungsintervalls um Systemressourcen zu sparen
+- Das auswählen welche CPU Kerne angezeigt werden
 
-WARNING: Expanded notifications only works on Jelly Bean +
+HINWEIS: Erweiterte Benachrichtungen funktionieren nur ab Jelly Bean!
 
-Misc:
-- Help translating! https://github.com/cgollner/systemmonitor-translations
+Sonstiges:
+- Die Übersetzung der Applikation klingt seltsam? Helfe mit diese Applikation zu übersetzen! https://github.com/cgollner/systemmonitor-translations
 
-Graphics:
-- Feature graphics made by www.johnxde.com #
+Grafiken:
+- Die Promotiongrafiken wurden von www.johnxde.com erstellt.
 
-Permissions explained:
-- DRAW OVER OTHER APPS: This permission is needed in order to display the floating app option.
-- RUN AT STARTUP: This permission is need in case that you want your notifications to start on boot.   
+Erklärung der Berechtigungen:
+- Über andere Apps ziehen: Diese Berechtigung wird benötigt um den Mehrfenstermodus zu ermöglichen.
+- Beim Start ausführen: Diese Berechtigung wird benötigt um die Benachrichtigungen beim Start anzuzeigen.
    </string>
-   <!-- END OF APP GENERAL -->
+	
+	<!-- END OF APP GENERAL -->
 
 
     <!-- STAT TITLES -->
@@ -52,8 +53,8 @@ Permissions explained:
     <string name="availableRam">Verfügbar</string>
     <string name="totalRam">Gesamt</string>
     <string name="usedRam">Benutzt</string>
-    <string name="min_speed">Min Geschwindigkeit</string>
-    <string name="max_speed">Max Geschwindigkeit</string>
+    <string name="min_speed">Min Frequenz</string>
+    <string name="max_speed">Max Frequenz</string>
     <string name="max">Max</string>
     <string name="min">Min</string>
     <string name="read_speed">Lesegeschwindigkeit</string>
@@ -61,9 +62,9 @@ Permissions explained:
     <string name="read">Lesen</string>
     <string name="write">Schreiben</string>
     <string name="send">Senden</string>
-    <string name="through">Über</string>
+    <string name="through">Gesamt</string>
     <string name="total">Gesamt</string>
-    <string name="throughput">Über</string>
+    <string name="throughput">Gesamt</string>
     <string name="send_speed">Sendegeschwindigkeit</string>
     <!-- END OF STAT TITLES -->
 
@@ -74,7 +75,7 @@ Permissions explained:
     <string name="widget_name_io">System Monitor IO</string>
     <string name="widget_name_network">System Monitor Netzwerk</string>
     <string name="settings_widgets">Widgets</string>
-    <string name="settings_widgets_summary">Persöhnliche anpassungen des Widgets</string>
+    <string name="settings_widgets_summary">Persöhnliche Anpassungen des Widgets</string>
     <!-- END OF WIDGETS -->
 
 
@@ -88,33 +89,33 @@ Permissions explained:
     <string name="settings_notifications_cpu_category">CPU Benachrichtung</string>
     <string name="settings_notifications_ram_category">RAM Benachrichtigung</string>
     <string name="settings_notifications_io_category">I/O Benachrichtigung</string>
-    <string name="settings_notification_net_category">Netzwerk Benachrichtung</string>
+    <string name="settings_notification_net_category">Netzwerkbenachrichtung</string>
     <string name="settings_pref_screen_not">Benachrichtigungen</string>
-    <string name="settings_notification_screen_summary">Eine Vorschau des Ressourcenmonitors kannst du in den Benachrichtigungen sehen. Das Ausklappen der Benachrichtigung ermöglicht es dir noch mehr Infos zu sehen.</string>
-    <string name="settings_notifications_show_expanded">Show expanded</string>
+    <string name="settings_notification_screen_summary">Eine Vorschau des Ressourcenmonitors wird in den Benachrichtigungen angezeigt. Das Ausklappen der Benachrichtigung ermöglicht es noch mehr Infos darzustellen.</string>
+    <string name="settings_notifications_show_expanded">Ausgeklappt</string>
 
     <!-- END OF NOTIFICATIONS -->
 
 
     <!-- FLYING MONITOR -->
-    <string name="settings_floating_cat">Mehrfenster App</string>
+    <string name="settings_floating_cat">Mehrfenstermodus</string>
     <string name="settings_floating_cpu">CPU</string>
     <string name="settings_floating_ram">RAM</string>
     <string name="settings_floating_io">I/O</string>
     <string name="settings_floating_net">NET</string>
     <string name="settings_floating_monitor">Monitor</string>
-    <string name="prefscreen_title_floating">Überlagerter Monitor</string>
-    <string name="settings_floating_screen_summary">Der überlagerte Monitor zeigt dir die Ressourcen in Echtzeit mit einem schönen Diagramm über jeder App an.</string>
+    <string name="prefscreen_title_floating">Mehrfenstermodus</string>
+    <string name="settings_floating_screen_summary">Der Mehrfenstermodus zeigt den Verbrauch der Ressourcen in Echtzeit, mit einem schönen Diagramm, über jeder App an.</string>
     <string name="settings_floating_cpu_cat">CPU Monitor</string>
     <string name="settings_floating_ram_cat">RAM Monitor</string>
     <string name="settings_floating_io_cat">I/O Monitor</string>
-    <string name="settings_floating_net_cat">Netzwerk Monitor</string>
+    <string name="settings_floating_net_cat">Netzwerkmonitor</string>
     <string name="settings_floating_display_all_cores_key">floatingallcoreskey</string>
 
     <string-array name="themes_array_entries">
-        <item>Light</item>
-        <item>Dark</item>
-        <item>Light with dark action bar</item>
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>Hell, dunkles Aktionsmenü</item>
     </string-array>
 
 
@@ -129,7 +130,7 @@ Permissions explained:
     <!-- Unlicensed dialog messages -->
     <string name="unlicensed_dialog_title">Applikation nicht lizenziert</string>
     <string name="unlicensed_dialog_body">Diese Applikation ist nicht lizenziert. Bitte erwerbe eine Lizenz über Google Play.</string>
-    <string name="unlicensed_dialog_retry_body">Eine Lizenzprüfung ist nicht möglich. Bitte stelle sicher das eine Netzwerkverbindung vorhanden ist.</string>
+    <string name="unlicensed_dialog_retry_body">Eine Lizenzprüfung ist nicht möglich. Bitte stelle sicher, dass eine Netzwerkverbindung vorhanden ist.</string>
     <string name="buy_button">App kaufen</string>
     <string name="retry_button">Erneut versuchen</string>
     <string name="quit_button">Beenden</string>
