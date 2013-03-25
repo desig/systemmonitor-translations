@@ -5,7 +5,7 @@
     <string name="app_name">System Monitor</string>
     <string name="menu_settings">Ajustes</string>
     <string name="io_title">I/O</string>
-    <string name="network_title">INTERNET</string>
+    <string name="network_title">RED</string>
     <string name="ram_title">RAM</string>
     <string name="cpu_title">CPU</string>
     <string name="display_all_cores">Mostras todos los núcleos</string>
@@ -13,7 +13,7 @@
     <string name="settings_theme_choose">Cambiar tema</string>
     <string name="settings">Ajustes</string>
     <string name="pref_screen_app">App</string>
-    <string name="settings_app_screen_summary">Ajustes. Puedes elegir un tema y cambiar cuando quieres que se muestren actualizaciones.</string>
+    <string name="settings_app_screen_summary">Aquí puedes elegir un tema y cambiar cuando quieres que se muestren actualizaciones.</string>
   	<string name="second">Segundo</string>
 	<string name="seconds">Segundos</string>	 
    <string name="app_description">
@@ -29,9 +29,9 @@
 
 Y además puedes modificar muchas opciones, como:
 -El intervalo de actualización.
--Cambiar entre el monitor de CPU total o de nucleos individuales!
+-Cambiar entre el monitor de la CPU completa o de nucleos individuales!
 
-ATENCIÓN: Las notificaciones expandidas solo funciona de Jelly Bean en adelante.
+ATENCIÓN: Las notificaciones expandidas solo funcionan de Jelly Bean en adelante.
 
 Help translating! https://github.com/cgollner/systemmonitor-translations
 
@@ -60,10 +60,10 @@ Permisos explicados:
     <string name="read">Lectura</string>
     <string name="write">Excritura</string>
     <string name="send">Envío</string>
-    <string name="through">Mediante</string>
+    <string name="through">Recepción</string>
     <string name="total">Total</string>
     <string name="throughput">Rendimiento</string>
-    <string name="send_speed">Velocidad de envío</string>
+    <string name="send_speed">Vel. de envío</string>
     <!-- END OF STAT TITLES -->
 
 
@@ -71,7 +71,7 @@ Permisos explicados:
     <string name="widget_name_cpu">Monitor de CPU</string>
     <string name="widget_name_ram">Monitor de RAM</string>
     <string name="widget_name_io">Monitor de I/O</string>
-    <string name="widget_name_network">Monitor de Internet</string>
+    <string name="widget_name_network">Monitor de Red</string>
     <string name="settings_widgets">Widgets</string>
     <string name="settings_widgets_summary">Establezca las opciones del Widget aquí</string>
     <!-- END OF WIDGETS -->
@@ -81,15 +81,15 @@ Permisos explicados:
     <string name="settings_notifications_title">Notificaciones</string>
     <string name="settings_notifications_cpu">Notificación</string>
     <string name="settings_notifications_ram">Notificación</string>
-    <string name="settings_notifications_io">Notificacioó</string>
+    <string name="settings_notifications_io">Notificación</string>
     <string name="settings_notifications_net">Notificación</string>
     <string name="settings_notifications_cpu_updatefreq">Tiempo de actualización</string>
-    <string name="settings_notifications_cpu_category">CPU Notification CPU</string>
+    <string name="settings_notifications_cpu_category">Notificación de CPU</string>
     <string name="settings_notifications_ram_category">Notificación de RAM</string>
     <string name="settings_notifications_io_category">Notificación de I/O </string>
-    <string name="settings_notification_net_category">Notificación de Internet</string>
+    <string name="settings_notification_net_category">Notificación de Red</string>
     <string name="settings_pref_screen_not">Notificaciones</string>
-    <string name="settings_notification_screen_summary">Podrás ver de un vistazo el estado del sistema desde la barra de notificaciones. Si la abres, ver�s m�s informaci�n.</string>
+    <string name="settings_notification_screen_summary">Podrás ver de un vistazo el estado del sistema desde la barra de notificaciones. Si las abres, verás más información.</string>
     <string name="settings_notifications_show_expanded">Mostrar expandido</string>
     
     <!-- END OF NOTIFICATIONS -->
@@ -103,11 +103,11 @@ Permisos explicados:
     <string name="settings_floating_net">Datos</string>
     <string name="settings_floating_monitor">Monitor</string>
     <string name="prefscreen_title_floating">Monitor Flotante</string>
-    <string name="settings_floating_screen_summary">Este monitor flotante estará encima de tus aplicaciones y te permitira ver el estado del sistema con una moderna interfaz gá�fica.</string>
+    <string name="settings_floating_screen_summary">Este monitor estará encima de tus aplicaciones y te permitira ver el estado del sistema con una moderna interfaz gráfica.</string>
     <string name="settings_floating_cpu_cat">Monitor de CPU</string>
     <string name="settings_floating_ram_cat">Monitor de RAM</string>
     <string name="settings_floating_io_cat">Monitor de I/O</string>
-    <string name="settings_floating_net_cat">Monitor de Internet</string>
+    <string name="settings_floating_net_cat">Monitor de Red</string>
 
     <string-array name="themes_array_entries">
         <item>Suave</item>
@@ -120,7 +120,7 @@ Permisos explicados:
     <string name="check_license">Comprobando licencia...</string>
     <string name="checking_license">Verificando licencia...</string>
     <string name="dont_allow">Acceso denegado</string>
-    <string name="allow">acceso permitido</string>
+    <string name="allow">Acceso permitido</string>
     <string name="application_error">Error: %1$s</string>
 
     <!-- Unlicensed dialog messages -->
