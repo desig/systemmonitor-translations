@@ -8,14 +8,14 @@
     <string name="network_title">RED</string>
     <string name="ram_title">RAM</string>
     <string name="cpu_title">CPU</string>
-    <string name="display_all_cores">Mostras todos los núcleos</string>
+    <string name="display_all_cores">Mostrar todos los núcleos</string>
     <string name="settings_theme_cat">Tema</string>
     <string name="settings_theme_choose">Cambiar tema</string>
     <string name="settings">Ajustes</string>
     <string name="pref_screen_app">App</string>
     <string name="settings_app_screen_summary">Aquí puedes elegir un tema y cambiar cuando quieres que se muestren actualizaciones.</string>
-  	<string name="second">Segundo</string>
-	<string name="seconds">Segundos</string>	 
+  	<string name="second">segundo</string>
+	<string name="seconds">segundos</string>	 
    <string name="app_description">
 ¡El mejor y más versatil monitor de sistema para Android!
 Ésta aplicacion te permite obtener en tiempo real estadísticas de uso en texto y gráficos. 
@@ -31,9 +31,9 @@ Y además puedes modificar muchas opciones, como:
 -El intervalo de actualización.
 -Cambiar entre el monitor de la CPU completa o de nucleos individuales!
 
-ATENCIÓN: Las notificaciones expandidas solo funcionan de Jelly Bean en adelante.
+ATENCIÓN: Las notificaciones expandidas sólo funcionan de Jelly Bean en adelante.
 
-Help translating! https://github.com/cgollner/systemmonitor-translations
+¡Ayuda a traducir! https://github.com/cgollner/systemmonitor-translations
 
 Gráficos:
 - Hechos por www.johnxde.com #
@@ -55,8 +55,8 @@ Permisos explicados:
     <string name="max_speed">Velocidad Máx.</string>
     <string name="max">Máx</string>
     <string name="min">Mín</string>
-    <string name="read_speed">Velocidad de Lectura</string>
-    <string name="write_speed">Velocidad de Escritura</string>
+    <string name="read_speed">Vel. de Lectura</string>
+    <string name="write_speed">Vel. de Escritura</string>
     <string name="read">Lectura</string>
     <string name="write">Excritura</string>
     <string name="send">Envío</string>
@@ -89,7 +89,7 @@ Permisos explicados:
     <string name="settings_notifications_io_category">Notificación de I/O </string>
     <string name="settings_notification_net_category">Notificación de Red</string>
     <string name="settings_pref_screen_not">Notificaciones</string>
-    <string name="settings_notification_screen_summary">Podrás ver de un vistazo el estado del sistema desde la barra de notificaciones. Si las abres, verás más información.</string>
+    <string name="settings_notification_screen_summary">Podrás ver de un vistazo el estado del sistema desde la barra de notificaciones. Si la abres, verás más información.</string>
     <string name="settings_notifications_show_expanded">Mostrar expandido</string>
     
     <!-- END OF NOTIFICATIONS -->
@@ -100,7 +100,7 @@ Permisos explicados:
     <string name="settings_floating_cpu">CPU</string>
     <string name="settings_floating_ram">RAM</string>
     <string name="settings_floating_io">I/O</string>
-    <string name="settings_floating_net">Datos</string>
+    <string name="settings_floating_net">Red</string>
     <string name="settings_floating_monitor">Monitor</string>
     <string name="prefscreen_title_floating">Monitor Flotante</string>
     <string name="settings_floating_screen_summary">Este monitor estará encima de tus aplicaciones y te permitira ver el estado del sistema con una moderna interfaz gráfica.</string>
@@ -124,8 +124,8 @@ Permisos explicados:
     <string name="application_error">Error: %1$s</string>
 
     <!-- Unlicensed dialog messages -->
-    <string name="unlicensed_dialog_title">Aplicacion ilegal.</string>
-    <string name="unlicensed_dialog_body">Aplicacion ilegal. ¡Cómprela en Google Play!</string>
+    <string name="unlicensed_dialog_title">¡Aplicación ilegal!</string>
+    <string name="unlicensed_dialog_body">Aplicación ilegal. Por favor, cómprela en Google Play</string>
     <string name="unlicensed_dialog_retry_body">Imposible validar la licencia. Comprueba tu conexión a Internet.</string>
     <string name="buy_button">Comprar</string>
     <string name="retry_button">Volver</string>
