@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP GENERAL -->
+    <string name="app_name">System Monitor</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="io_title">I/O</string>
+    <string name="network_title">SIEĆ</string>
+    <string name="ram_title">RAM</string>
+    <string name="cpu_title">CPU</string>
+    <string name="display_all_cores">Pokaż wszystkie rdzenie</string>
+    <string name="settings_theme_cat">Motyw</string>
+    <string name="settings_theme_choose">Wybierz motyw</string>
+    <string name="settings">Ustawienia</string>
+    <string name="pref_screen_app">Aplikacja</string>
+    <string name="settings_app_screen_summary">Różne ustawienia. Możliwy jest wybór motywu oraz ustawienie częstotliwości odświeżania.</string>
+  	<string name="second">Sekunda</string>
+	<string name="seconds">Sekundy</string>	 
+   <string name="app_description">
+Najładniejszy i najbardziej wszechstronny monitor systemu dla Androida. Aplikacja dostarcza informacji o zużyciu zasobów systemu w czasie rzeczywistym w formie tekstu i wykresów. 
+
+Ta aplikacja to prawdziwe 4 w 1! Możliwe jest monitorowanie procesora, pamięci RAM, wejścia/wyjścia oraz sieci w:
+
+- Głównej aplikacji
+- Pasku powiadomień
+- Pływającym oknie
+- Widżetach
+
+Możliwe jest dostosowanie róznych parametrów, takich jak:
+-Czas odświeżania.
+-Monitorowanie całego procesora lub poszczególnych rdzeni!
+
+UWAGA: Rozwijalne powiadomienia działają od Jelly Bean wzwyż
+
+Różne:
+- Pomoż w tłumaczeniu! https://github.com/cgollner/systemmonitor-translations
+
+Grafika:
+- Grafika wykonana przez www.johnxde.com #
+
+Objaśnienie uprawnień:
+- DRAW OVER OTHER APPS: To uprawnienie jest potrzebne w celu rysowania pływającego okna.
+- RUN AT STARTUP: To uprawnienie jest potrzebne w przypadku, gdy użytkownik chce aby powiadomienia pokazały się po starcie systemu.   
+   </string>
+   <!-- END OF APP GENERAL -->
+
+
+    <!-- STAT TITLES -->
+    <string name="cpuUsage">Zużycie</string>
+    <string name="cpuFrequency">Zegar</string>
+    <string name="availableRam">Wolne</string>
+    <string name="totalRam">Suma</string>
+    <string name="usedRam">Użyte</string>
+    <string name="min_speed">Min częst.</string>
+    <string name="max_speed">Max częst.</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="read_speed">Prędkość Odczytu</string>
+    <string name="write_speed">Prędkość Zapisu</string>
+    <string name="read">Odczyt</string>
+    <string name="write">Zapis</string>
+    <string name="send">Wysyłanie</string>
+    <string name="through">Przepustowość</string>
+    <string name="total">Suma</string>
+    <string name="throughput">Przepustowość</string>
+    <string name="send_speed">Prędkość Wysył.</string>
+    <!-- END OF STAT TITLES -->
+
+
+    <!-- WIDGETS -->
+    <string name="widget_name_cpu">Monitor Systemu CPU</string>
+    <string name="widget_name_ram">Monitor Systemu RAM</string>
+    <string name="widget_name_io">Monitor Systemu IO</string>
+    <string name="widget_name_network">Monitor Systemu Sieć</string>
+    <string name="settings_widgets">Widżety</string>
+    <string name="settings_widgets_summary">Ustaw preferencje widżetów</string>
+    <!-- END OF WIDGETS -->
+
+
+    <!-- NOTIFICATIONS -->
+    <string name="settings_notifications_title">Powiadomienia</string>
+    <string name="settings_notifications_cpu">Powiadomienie</string>
+    <string name="settings_notifications_ram">Powiadomienie</string>
+    <string name="settings_notifications_io">Powiadomienie</string>
+    <string name="settings_notifications_net">Powiadomienie</string>
+    <string name="settings_notifications_cpu_updatefreq">Czas odświeżania</string>
+    <string name="settings_notifications_cpu_category">Powiadomienie CPU</string>
+    <string name="settings_notifications_ram_category">Powiadomienie RAM</string>
+    <string name="settings_notifications_io_category">Powiadomienie I/O</string>
+    <string name="settings_notification_net_category">Powiadomienie Sieciowe</string>
+    <string name="settings_pref_screen_not">Powiadomienia</string>
+    <string name="settings_notification_screen_summary">You can sneak peak your system load directly from the notification bar. Expanding the bar will show you more info than you\'ve ever imagined.</string>
+    <string name="settings_notifications_show_expanded">Pokaż rozwinięte</string>
+    
+    <!-- END OF NOTIFICATIONS -->
+
+
+    <!-- FLYING MONITOR -->
+    <string name="settings_floating_cat">Pływająca aplikacja</string>
+    <string name="settings_floating_cpu">CPU</string>
+    <string name="settings_floating_ram">RAM</string>
+    <string name="settings_floating_io">I/O</string>
+    <string name="settings_floating_net">SIEĆ</string>
+    <string name="settings_floating_monitor">Monitor</string>
+    <string name="prefscreen_title_floating">Pływający Monitor</string>
+    <string name="settings_floating_screen_summary">To pływające okno znajdzie się nad wszystkimi aplikacjami i będzie pokazywać zużycie zasobów w czasie rzeczywistym w postaci miłej dla oka grafiki.</string>
+    <string name="settings_floating_cpu_cat">Monitor CPU</string>
+    <string name="settings_floating_ram_cat">Monitor RAM</string>
+    <string name="settings_floating_io_cat">Monitor I/O</string>
+    <string name="settings_floating_net_cat">Monitor Sieci</string>
+
+    <string-array name="themes_array_entries">
+        <item>Jasny</item>
+        <item>Ciemny</item>
+        <item>Jasny z ciemnym paskiem akcji</item>
+    </string-array>
+
+    <!-- LICENSE -->
+    <!-- License checking status messages -->
+    <string name="check_license">Sprawdź licencję</string>
+    <string name="checking_license">Sprawdzanie licencji...</string>
+    <string name="dont_allow">Nie zezwalaj na dostęp</string>
+    <string name="allow">Zezwól na dostęp</string>
+    <string name="application_error">Błąd aplikacji: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Aplikacja nie posiada licencji</string>
+    <string name="unlicensed_dialog_body">Ta aplikacja nie posiada licencji. Proszę zakupić ją w Google Play.</string>
+    <string name="unlicensed_dialog_retry_body">Nie można zweryfikować licencji. Sprawdź proszę, czy sieć jest dostępna i spróbuj ponownie.</string>
+    <string name="buy_button">Kup</string>
+    <string name="retry_button">Ponów</string>
+    <string name="quit_button">Wyjdź</string>
+
+</resources>
