@@ -2,29 +2,46 @@
 <resources>
 
     <!-- APP GENERAL -->
-    <string name="app_name">System Monitor</string>
+    <string name="app_name">System Monitor Lite</string>
     <string name="menu_settings">Definições</string>
     <string name="io_title">I/O</string>
     <string name="network_title">REDE</string>
     <string name="ram_title">RAM</string>
     <string name="cpu_title">CPU</string>
+    <string name="top_apps_title">APLICAÇÕES</string>
     <string name="display_all_cores">Mostrar todos os núcleos</string>
     <string name="settings_theme_cat">Tema da aplicação</string>
     <string name="settings_theme_choose">Escolher tema</string>
     <string name="settings">Definições</string>
-    <string name="pref_screen_app">App</string>
+    <string name="pref_screen_app">Aplicação</string>
     <string name="settings_app_screen_summary">Aqui podes escolher o teu tema favorito e definir a frequência de atualização de dados no ecrã.</string>
-  	<string name="second">Segundo</string>
-	<string name="seconds">Segundos</string>	 
-   <string name="app_description">
+    <string name="second">Segundo</string>
+    <string name="seconds">Segundos</string>	 
+     <!-- END OF APP GENERAL -->
+
+    <!-- Full version -->
+    <string name="full_version_details">Detalhes da versão completa</string>
+    <string name="features">Funcionalidades</string>
+    <string name="notifications">Notificações</string>
+    <string name="flyingmonitor">Monitor Flutuante</string>
+    <string name="widgets">Widgets</string>
+    <string name="widgets_desc">Monitoriza o Sistema diretamente a partir de um widget no ecrã principal.</string>
+    <string name="dashclock_desc">Desfruta de todas as estatísticas de sistema diretamente no ecrã de lockscreen com estas extensões para o DashClock.</string>
+    <string name="get_full">Obter a versão completa</string>
+    <string name="settings_pref_screen_not_full">Notificações [VERSÃO COMPLETA]</string>
+    <string name="prefscreen_title_floating_full">Monitor Flutuante [VERSÃO COMPLETA]</string>
+    <!-- END OF FULL version details -->
+
+    <!--DESCRIPTION -->	
+    <string name="app_description">
 O mais versátil e bonito Monitor de Sistema para Android. Esta aplicação apresenta textos e gráficos com estatísticas de uso do sistema, em tempo real.
 
-Esta app é um 4 em 1 completo! Podes monitorizar o CPU, RAM, I/O e estado da rede de várias formas:
+Esta app é um 5 em 1 completo! Podes monitorizar o CPU, RAM, I/O, estado da rede e recursos das aplicações de várias formas:
 
 - Aplicação principal
 - Barra de notificações
 - Painel flutuante
-- Widgets
+- Widgets, incluindo extensões para o DashClock
 
 Podes ainda configurar muitas opções e funcionalidades, tais como:
 -A frequência de atualização para poupar recursos do sistema.
@@ -39,11 +56,30 @@ Gráficos:
 - Feitos por www.johnxde.com #
 
 Explicação das permissões:
-- DRAW OVER OTHER APPS: Esta permissão é necessária para permitir que a aplicação seja apresentada num painel flutuante.
-- RUN AT STARTUP: Esta permissão é necessária para quando se prentende apresentar as notificações no arranque do sistema. 
-   </string>
-   <!-- END OF APP GENERAL -->
+- DESENHAR SOBRE OUTRAS APLICAÇÕES: Esta permissão é necessária para permitir que a aplicação seja apresentada num painel flutuante.
+- EXECUTAR NO ARRANQUE: Esta permissão é necessária para quando se prentende apresentar as notificações no arranque do sistema.
 
+   </string>
+   
+    <string name="app_description_lite">
+A versão Lite do mais versátil e bonito Monitor de Sistema para Android. Esta aplicação apresenta textos e gráficos com estatísticas de uso do sistema, em tempo real.
+
+Esta app é um 5 em 1 completo! Podes monitorizar o CPU, RAM, I/O, estado da rede e recursos das aplicações.
+
+Podes ainda configurar muitas opções e funcionalidades, tais como:
+-A frequência de atualização para poupar recursos do sistema.
+-Escolher entre monitorizar o uso total do CPU ou monitorizar cada núcleo do CPU individualmente!
+
+Outras notas:
+- Ajuda-nos a traduzir! https://github.com/cgollner/systemmonitor-translations
+    </string>   
+
+    <!-- EXTENSIONS -->
+    <string name="extension_cpu_description">Apresenta o uso de CPU e as frequências mín., máx. e atual. Informação também disponível para processadores com vários núcleos.</string>
+    <string name="extension_ram_description">Apresenta estatísticas de RAM, tais como uso atual, utilização passada, memória livre e memória total.</string>
+    <string name="extension_io_description">Apresenta estatísticas de  I/O, tais como a utilização e velocidades de escrita e leitura.</string>
+    <string name="extension_net_description">Apresenta estatísticas de rede, tais como velocidade de envio, receção e total.</string>
+    <!-- END OF EXTENSIONS -->
 
     <!-- STAT TITLES -->
     <string name="cpuUsage">Uso</string>
@@ -60,10 +96,12 @@ Explicação das permissões:
     <string name="read">Leitura</string>
     <string name="write">Escrita</string>
     <string name="send">Envio</string>
-    <string name="through">Receção</string>
+    <string name="through">Transmissão</string>
     <string name="total">Total</string>
     <string name="throughput">Transmissão</string>
     <string name="send_speed">Vel. Envio</string>
+    <string name="receive">Rec.</string>
+    <string name="receive_speed">Receção</string>
     <!-- END OF STAT TITLES -->
 
 
@@ -91,12 +129,11 @@ Explicação das permissões:
     <string name="settings_pref_screen_not">Notificações</string>
     <string name="settings_notification_screen_summary">Podes dar uma espreitadela ao estado do sistema diretamente a partir da barra de notificações. Poderás ver mais informação do sistema ao expandir a barra de notificações.</string>
     <string name="settings_notifications_show_expanded">Mostrar expandido</string>
-    
     <!-- END OF NOTIFICATIONS -->
 
 
     <!-- FLYING MONITOR -->
-	<string name="settings_floating_cat">Painel Flutuante</string>
+    <string name="settings_floating_cat">Painel Flutuante</string>
     <string name="settings_floating_cpu">CPU</string>
     <string name="settings_floating_ram">RAM</string>
     <string name="settings_floating_io">I/O</string>
@@ -108,6 +145,9 @@ Explicação das permissões:
     <string name="settings_floating_ram_cat">Monitor de RAM</string>
     <string name="settings_floating_io_cat">Monitor de I/O</string>
     <string name="settings_floating_net_cat">Monitor de Rede</string>
+    <string name="settings_floating_showgraph">Mostrar gráfico</string>
+    <string name="settings_floating_width">Largura da janela</string>
+    <string name="settings_floating_height">Altura da janela</string>
 
     <string-array name="themes_array_entries">
         <item>Claro</item>
@@ -130,5 +170,9 @@ Explicação das permissões:
     <string name="buy_button">Comprar</string>
     <string name="retry_button">Repetir</string>
     <string name="quit_button">Sair</string>
+    <string name="settings_extension_all_cores">Detalhes por núcleo</string>
+    <string name="settings_extension_all_cores_key">settings_extension_all_cores_key</string>
+    <string name="settings_floating_ui_category">Ajustes de disposição</string>
+    <string name="menu_show_all_processes">Mostrar processos do sistema</string>
 
 </resources>
