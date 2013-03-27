@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP GENERAL -->
+    <string name="app_name">System Monitor</string>
+    <string name="menu_settings">Definições</string>
+    <string name="io_title">I/O</string>
+    <string name="network_title">REDE</string>
+    <string name="ram_title">RAM</string>
+    <string name="cpu_title">CPU</string>
+    <string name="display_all_cores">Mostrar todos os núcleos</string>
+    <string name="settings_theme_cat">Tema da aplicação</string>
+    <string name="settings_theme_choose">Escolher tema</string>
+    <string name="settings">Definições</string>
+    <string name="pref_screen_app">App</string>
+    <string name="settings_app_screen_summary">Aqui podes escolher o teu tema favorito e definir a frequência de atualização de dados no ecrã.</string>
+  	<string name="second">Segundo</string>
+	<string name="seconds">Segundos</string>	 
+   <string name="app_description">
+O mais versátil e bonito Monitor de Sistema para Android. Esta aplicação apresenta textos e gráficos com estatísticas de uso do sistema, em tempo real.
+
+Esta app é um 4 em 1 completo! Podes monitorizar o CPU, RAM, I/O e estado da rede de várias formas:
+
+- Aplicação principal
+- Barra de notificações
+- Painel flutuante
+- Widgets
+
+Podes ainda configurar muitas opções e funcionalidades, tais como:
+-A frequência de atualização para poupar recursos do sistema.
+-Escolher entre monitorizar o uso total do CPU ou monitorizar cada núcleo do CPU individualmente!
+
+ATENÇÃO: As notificações expansíveis apenas funcionam em Jelly Bean ou mais recente
+
+Outras notas:
+- Ajuda-nos a traduzir! https://github.com/cgollner/systemmonitor-translations
+
+Gráficos:
+- Feitos por www.johnxde.com #
+
+Explicação das permissões:
+- DRAW OVER OTHER APPS: Esta permissão é necessária para permitir que a aplicação seja apresentada num painel flutuante.
+- RUN AT STARTUP: Esta permissão é necessária para quando se prentende apresentar as notificações no arranque do sistema. 
+   </string>
+   <!-- END OF APP GENERAL -->
+
+
+    <!-- STAT TITLES -->
+    <string name="cpuUsage">Uso</string>
+    <string name="cpuFrequency">Velocidade</string>
+    <string name="availableRam">Livre</string>
+    <string name="totalRam">Total</string>
+    <string name="usedRam">Used</string>
+    <string name="min_speed">Velocidade mín.</string>
+    <string name="max_speed">Velocidade máx.</string>
+    <string name="max">Máx</string>
+    <string name="min">Mín</string>
+    <string name="read_speed">Vel. de leitura</string>
+    <string name="write_speed">Vel. de escrita</string>
+    <string name="read">Leitura</string>
+    <string name="write">Escrita</string>
+    <string name="send">Envio</string>
+    <string name="through">Receção</string>
+    <string name="total">Total</string>
+    <string name="throughput">Transmissão</string>
+    <string name="send_speed">Vel. Envio</string>
+    <!-- END OF STAT TITLES -->
+
+
+    <!-- WIDGETS -->
+    <string name="widget_name_cpu">Monitor de CPU</string>
+    <string name="widget_name_ram">Monitor de RAM</string>
+    <string name="widget_name_io">Monitor de I/O</string>
+    <string name="widget_name_network">Monitor de Rede</string>
+    <string name="settings_widgets">Widgets</string>
+    <string name="settings_widgets_summary">Definir aqui as prefências do widget</string>
+    <!-- END OF WIDGETS -->
+
+
+    <!-- NOTIFICATIONS -->
+    <string name="settings_notifications_title">Notificações</string>
+    <string name="settings_notifications_cpu">Notificação</string>
+    <string name="settings_notifications_ram">Notificação</string>
+    <string name="settings_notifications_io">Notificação</string>
+    <string name="settings_notifications_net">Notificação</string>
+    <string name="settings_notifications_cpu_updatefreq">Intervalo de atualização</string>
+    <string name="settings_notifications_cpu_category">Notificação de CPU</string>
+    <string name="settings_notifications_ram_category">Notificação de RAM</string>
+    <string name="settings_notifications_io_category">Notificação de I/O</string>
+    <string name="settings_notification_net_category">Notificação de Rede</string>
+    <string name="settings_pref_screen_not">Notificações</string>
+    <string name="settings_notification_screen_summary">Podes dar uma espreitadela ao estado do sistema diretamente a partir da barra de notificações. Poderás ver mais informação do sistema ao expandir a barra de notificações.</string>
+    <string name="settings_notifications_show_expanded">Mostrar expandido</string>
+    
+    <!-- END OF NOTIFICATIONS -->
+
+
+    <!-- FLYING MONITOR -->
+	<string name="settings_floating_cat">Painel Flutuante</string>
+    <string name="settings_floating_cpu">CPU</string>
+    <string name="settings_floating_ram">RAM</string>
+    <string name="settings_floating_io">I/O</string>
+    <string name="settings_floating_net">REDE<string>
+    <string name="settings_floating_monitor">Monitor</string>
+    <string name="prefscreen_title_floating">Monitor Flutuante</string>
+    <string name="settings_floating_screen_summary">Esta janela flutuante será apresentada no topo de todas as aplicações e apresenta uma interface gráfica moderna com o estado do sistema em tempo real.</string>
+    <string name="settings_floating_cpu_cat">Monitor de CPU</string>
+    <string name="settings_floating_ram_cat">Monitor de RAM</string>
+    <string name="settings_floating_io_cat">Monitor de I/O</string>
+    <string name="settings_floating_net_cat">Monitor de Rede</string>
+
+    <string-array name="themes_array_entries">
+        <item>Claro</item>
+        <item>Escuro</item>
+        <item>Claro com barra de ações escura</item>
+    </string-array>
+
+    <!-- LICENSE -->
+    <!-- License checking status messages -->
+    <string name="check_license">Verificar licença</string>
+    <string name="checking_license">A verificar licença...</string>
+    <string name="dont_allow">Não permitir o acesso do utilizador</string>
+    <string name="allow">Permitir o acesso do utilizador</string>
+    <string name="application_error">Erro: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Aplicação sem licença</string>
+    <string name="unlicensed_dialog_body">Esta aplicação não tem uma licença. Por favor compre uma a partir na Google Play.</string>
+    <string name="unlicensed_dialog_retry_body">Não foi possível validar a licença. Por favor verifique se está disponível uma ligação à rede.</string>
+    <string name="buy_button">Comprar</string>
+    <string name="retry_button">Repetir</string>
+    <string name="quit_button">Sair</string>
+
+</resources>
