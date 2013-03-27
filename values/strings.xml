@@ -171,7 +171,6 @@ Misc:
     <string name="retry_button">Retry</string>
     <string name="quit_button">Exit</string>
     <string name="settings_extension_all_cores">Multi-core info</string>
-    <string name="settings_extension_all_cores_key">settings_extension_all_cores_key</string>
     <string name="settings_floating_ui_category">Layout tweaks</string>
     <string name="menu_show_all_processes">Show system processes</string>
 
