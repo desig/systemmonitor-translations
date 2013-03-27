@@ -2,35 +2,52 @@
 <resources>
 
     <!-- APP GENERAL -->
-    <string name="app_name">System Monitor</string>
+    <string name="app_name">System Monitor Lite</string>
     <string name="menu_settings">Settings</string>
     <string name="io_title">I/O</string>
     <string name="network_title">NETWORK</string>
     <string name="ram_title">RAM</string>
     <string name="cpu_title">CPU</string>
+    <string name="top_apps_title">TOP APPS</string>
     <string name="display_all_cores">Show all cores</string>
     <string name="settings_theme_cat">App Theme</string>
     <string name="settings_theme_choose">Choose theme</string>
     <string name="settings">Settings</string>
     <string name="pref_screen_app">App</string>
     <string name="settings_app_screen_summary">Misc settings. You can choose your favorite theme and define how often you want the load updates to show on your screen.</string>
-  	<string name="second">Second</string>
-	<string name="seconds">Seconds</string>	 
-   <string name="app_description">
+    <string name="second">Second</string>
+    <string name="seconds">Seconds</string>
+    <!-- END OF APP GENERAL -->
+	
+	<!-- Full version -->
+    <string name="full_version_details">Full version details</string>
+    <string name="features">Features</string>
+    <string name="notifications">Notifications</string>
+    <string name="flyingmonitor">Flying Monitor</string>
+    <string name="widgets">Widgets</string>
+    <string name="widgets_desc">Monitor your System directly from a home screen widget.</string>
+    <string name="dashclock_desc">Enjoy all the powerful system stats directly on your lockscreen with these DashClock extensions.</string>
+    <string name="get_full">Get the full version</string>
+	<string name="settings_pref_screen_not_full">Notifications [FULL VERSION]</string>
+    <string name="prefscreen_title_floating_full">Flying Monitor [FULL VERSION]</string>
+	<!-- END OF FULL version details -->
+	
+	<!--DESCRIPTION -->
+	<string name="app_description_full">
 The most beautiful and versatile System Monitor for Android. This application provides real time system load statistics in the form of text and graph. 
 
-This app is a full 4 in 1! You will be able to monitor CPU,RAM,I/O and Network from
+This app is a full 5 in 1! You will be able to monitor CPU,RAM,I/O,Network and TOP APPS from
 
 - Main app
 - Notification bar
 - Floating app
-- Widgets
+- Widgets, including DashClock extensions
 
 You will be able to configure lots of nice features, such as:
 -The update interval in order to spare system resources.
 -Choose to either monitor total cpu usage or individual cpu cores!
 
-WARNING: Expanded notifications only works on Jelly Bean +
+WARNING: Expanded notifications only works on Jelly Bean+
 
 Misc:
 - Help translating! https://github.com/cgollner/systemmonitor-translations
@@ -40,11 +57,30 @@ Graphics:
 
 Permissions explained:
 - DRAW OVER OTHER APPS: This permission is needed in order to display the floating app option.
-- RUN AT STARTUP: This permission is need in case that you want your notifications to start on boot.   
-   </string>
-   <!-- END OF APP GENERAL -->
+- RUN AT STARTUP: This permission is need in case that you want your notifications to start on boot.	
+	
+	</string>
+	
+	<string name="app_description_lite">
+The Lite version of the most beautiful and versatile System Monitor for Android. This application provides real time system load statistics in the form of text and graph.
+This app is a full 5 in 1! You will be able to monitor CPU,RAM,I/O, Network and TOP APPS.
+
+You will be able to configure lots of nice features, such as:
+-The update interval in order to spare system resources.
+-Choose to either monitor total cpu usage or individual cpu cores!
+
+Misc:
+- Help translating! https://github.com/cgollner/systemmonitor-translations	
+	</string>
 
 
+    <!-- EXTENSIONS -->
+    <string name="extension_cpu_description">Displays CPU usage, min, max and current frequency. Multi-core info is also available.</string>
+    <string name="extension_ram_description">Displays RAM stats, such as usage, used, free and total.</string>
+    <string name="extension_io_description">Displays I/O stats, such as usage, read speed and write speed.</string>
+    <string name="extension_net_description">Displays Network stats, such as receive speed, transmit speed and total speed.</string>
+
+    <!-- END OF EXTENSIONS -->
     <!-- STAT TITLES -->
     <string name="cpuUsage">Usage</string>
     <string name="cpuFrequency">Speed</string>
@@ -64,6 +100,8 @@ Permissions explained:
     <string name="total">Total</string>
     <string name="throughput">Through</string>
     <string name="send_speed">Send Speed</string>
+    <string name="receive">Recv</string>
+    <string name="receive_speed">Receive</string>
     <!-- END OF STAT TITLES -->
 
 
@@ -91,9 +129,8 @@ Permissions explained:
     <string name="settings_pref_screen_not">Notifications</string>
     <string name="settings_notification_screen_summary">You can sneak peak your system load directly from the notification bar. Expanding the bar will show you more info than you\'ve ever imagined.</string>
     <string name="settings_notifications_show_expanded">Show expanded</string>
-    
     <!-- END OF NOTIFICATIONS -->
-
+ 
 
     <!-- FLYING MONITOR -->
     <string name="settings_floating_cat">Float app</string>
@@ -108,13 +145,16 @@ Permissions explained:
     <string name="settings_floating_ram_cat">RAM Monitor</string>
     <string name="settings_floating_io_cat">I/O Monitor</string>
     <string name="settings_floating_net_cat">Network Monitor</string>
+    <string name="settings_floating_showgraph">Show graph</string>
+    <string name="settings_floating_width">Window width</string>
+    <string name="settings_floating_height">Window height</string>
 
     <string-array name="themes_array_entries">
         <item>Light</item>
         <item>Dark</item>
         <item>Light with dark action bar</item>
     </string-array>
-
+ 
     <!-- LICENSE -->
     <!-- License checking status messages -->
     <string name="check_license">Check license</string>
@@ -130,5 +170,9 @@ Permissions explained:
     <string name="buy_button">Buy app</string>
     <string name="retry_button">Retry</string>
     <string name="quit_button">Exit</string>
+    <string name="settings_extension_all_cores">Multi-core info</string>
+    <string name="settings_extension_all_cores_key">settings_extension_all_cores_key</string>
+    <string name="settings_floating_ui_category">Layout tweaks</string>
+    <string name="menu_show_all_processes">Show system processes</string>
 
 </resources>
