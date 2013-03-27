@@ -100,7 +100,7 @@ Explicação das permissões:
     <string name="settings_floating_cpu">CPU</string>
     <string name="settings_floating_ram">RAM</string>
     <string name="settings_floating_io">I/O</string>
-    <string name="settings_floating_net">NET</string>
+    <string name="settings_floating_net">REDE<string>
     <string name="settings_floating_monitor">Monitor</string>
     <string name="prefscreen_title_floating">Monitor Flutuante</string>
     <string name="settings_floating_screen_summary">Esta janela flutuante será apresentada no topo de todas as aplicações e apresenta uma interface gráfica moderna com o estado do sistema em tempo real.</string>
